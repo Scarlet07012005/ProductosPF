@@ -65,3 +65,31 @@ nav {
 .nombreEmpresa{
     font-size: 50px;
 }
+
+h2 {
+    font-size: 40px;
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.whatsapp-button a {
+    display: block;
+    background-color: #25d366;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.whatsapp-button a img {
+    width: 100px;
+}
+
+.whatsapp-button a:hover {
+    background-color: #128c7e; 
+}
